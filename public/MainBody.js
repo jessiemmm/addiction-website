@@ -11,7 +11,10 @@ const MainBody = () => {
     
     
     <!--introduction-->
+    <img src="../public/images/computers.jpg" alt="header-img" style="width: 100%" id="header-img">
+    
     <p id="introduction">
+    <br>
     Although social media addiction is common in the United States, it is treatable. A wide variety of social media rehabs, addiction treatment programs, and aftercare services are offered to help people find a social media rehab program that is best for them. If you have developed a social media addiction, understanding your options for treatment is important. Social media rehab centers can offer you the medical attention and support you need to pursue and maintain sobriety.
 </p>
 
@@ -38,6 +41,7 @@ const MainBody = () => {
 </p>
 
     <p id="private-treatment">
+    <img id="leaning-img" alt="leaning-img" src="../public/images/leaning.jpg" width="100%">
     <h4>Private Inpatient Social Media Rehab Treatment</h4>
     <p>When it comes to social media treatment centers, there are various types of programs. Most private social media treatment facilities offer inpatient residential rehab. There is both long-term and short-term residential treatment. Inpatient rehab can last for a wide range of time, with long-term residential treatment possibly lasting from 6 to 12 months and short-term residential treatment possibly lasting from 3 to 6 weeks (with variations for both).
 </p>
@@ -81,7 +85,7 @@ When it comes to treatment for social media addiction, detox is the first step.
 
 <p id="detox">
 <h4>What Is Social Media Detox?</h4>
-
+<img id="flowers-img" alt="flowers-img" src="../public/images/flower.jpg" width="100%">
 <p>Social media detox involves medical management of social media withdrawal symptoms while the person stops being exposed to social media. Since social media withdrawal can potentially be extremely difficult to handle, the treatment team will assist with methods to help cope during withdrawal.
 </p>
 <p>Once you achieve a mentally clear, social media-free state, the treatment team will prepare you to transition into a comprehensive social media addiction treatment program. Although detox is extremely effective and helpful for someone looking to quit using social media, it isn’t a replacement for rehab.
@@ -162,6 +166,7 @@ If you’re wanting to find the best inpatient rehab center for social media add
 </p></p>
 <hr>
 <p>
+<img id="insurance-img" alt="insurance-img" src="../public/images/insurance.jpg" width="100%">
 <h4>Information Needed for Social Media Treatment Facilities</h4>
 
 <p>When you call our helpline, you’ll want to have as much relevant information as possible so that you can adequately answer the admissions navigator’s questions. Examples of info you may need to provide include:
@@ -220,6 +225,7 @@ If you’re wanting to find the best inpatient rehab center for social media add
 <hr>
 <p>
 <h4>Social Media Statistics</h4>
+<img id="apps-img" alt="apps-img" src="../public/images/phone-apps.jpg" width="100%">
 <p>Social media addiction affects people of all different ages, as it has become part of the daily habits across multiple generations. In 2020, Americans spent an average of 2 hours and 25  minutes a day on social media, and this time has significant negative effects on their mental and physical health. Social media usage, according to a 2018 British study, leads to disrupted sleep, depression, and even memory loss. It can also lead to an increased sense of loneliness, according to a study from the University of Pennsylvania. 
 </p>
 <p>Social media has become so addictive because the action of disclosing oneself on these apps activates the same part of the brain that lights up when one uses an addictive substance. This “reward-area” in our brains can affect our sensations and decisions. Using an addictive substance and experiencing something rewarding activates the same neurons in our brain, raising our dopamine levels. Thus, our brains associate an activity, such as media usage or drug use, with a positive reward. The similarities between our neurological reactions to drugs and social media reveals the serious nature of this addiction. 
@@ -243,6 +249,8 @@ If you’re wanting to find the best inpatient rehab center for social media add
     <ul>Winding Rivers - Atlanta, GA </ul>
     </div>
 </div>
+
+<img id="blankmap-img" alt="blankmap-img" src="../public/images/TreatmentCenters_White_no_text.png" width="100%">
 
 
     

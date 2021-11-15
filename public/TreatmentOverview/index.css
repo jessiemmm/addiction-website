@@ -1,5 +1,18 @@
+.caption {
+    text-align: center;
+    font-size: 14px;
+}
+
 
 .card-body {
     padding-left: 100px;
-    padding-right: 100px;
+
+}
+
+#logo2-img {
+    float: right;
+    width:50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
 }

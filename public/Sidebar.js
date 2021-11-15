@@ -8,7 +8,7 @@ const Sidebar = () => {
     <h6 class="card-subtitle mb-2 text-muted">The content on Rehabs.com is brought to you by Social Media Addiction Centers (SMAC), a
     nationwide network of leading substance abuse and behavioral treatment facilities.</h6>
     <p class="card-text">
-    <img src="../public/images/TreatmentCenter.jpg" alt="map-img" id="map-img">
+    <img src="../public/images/TreatmentCenters_White.png" alt="map-img" id="map-img">
     </p>
     <a href="#" class="card-link">Rising Hope Recovery</a>
     <br>
@@ -24,16 +24,13 @@ const Sidebar = () => {
 
 <p>
 <h3>Related Articles</h3>
-Help Finding a Dilaudid Rehab Treatment Facility
-Eating Disorder and Substance Abuse Treatment Facilities Near Me
-Luxury Treatment Centers
-Finding a Rehab Facility for Speed Addiction Treatment
-How to Find an Inpatient Amobarbital Rehab Program
-What are the Treatment Options for Luminal Drug Use
-Choosing the Best Duramorph Inpatient Rehab Center
-Subutex (Buprenorphine) Detox and Treatment Centers Near Me
-LGBTQ Rehab Centers for Gay, Lesbian, Bisexual, or Transgender
-Help Finding Xanax Rehab Drug Addiction Treatment Programs
+<a href="https://www.healthline.com/health/social-media-addiction">Social Media Addiction</a>
+<br>
+<a href="https://cyberpsychology.eu/article/view/11562/10373">Social Media Addiction: Its Impact, Mediation, and Intervention</a>
+<br>
+<a href="https://www.verywellmind.com/excessive-social-media-use-4690882">Excessive Social Media Use</a>
+<br>
+<a href="https://www.theguardian.com/commentisfree/2019/mar/19/social-media-facebook-addiction-not-natural-normal-disease">Is Social Media Addiction a Disease?</a>
 </p>
     `);
 }
