@@ -44,6 +44,9 @@
 
 #medical-review-btn {
     border-radius: 25px;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #map-img {

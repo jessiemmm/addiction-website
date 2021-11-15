@@ -3,9 +3,10 @@ import Sidebar from "./public/Sidebar.js";
 
 (function ($) {
     $('#homeScreen').append(`
+<br>
    
-    <button type="button" class="btn btn-light" id="medical-review-btn">
-        <img src="./public/images/medically-reviewed.png" alt="medical-review"> Medically Reviewed
+    <button type="button" class="btn btn-outline-light" id="medical-review-btn">
+        <i class="fas fa-clinic-medical"></i>  &nbsp; Medically Reviewed
     </button>
     
     <div class="row mt-2">
