@@ -1,0 +1,67 @@
+
+.alert {
+    opacity: 1;
+    background-color: black;
+    color: black;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9999;
+    width: 400px;
+
+}
+#get-help {
+    font-size: 40px;
+    text-align: center;
+}
+
+.alert-call {
+    color: white;
+    font-size: 15px;
+    background-color: #0b5ed7;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+#alert-helpline a:link, a:visited, a:hover, a:active {
+    color: orange;
+    font-size: 20px;
+}
+
+#call-number {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    border: none;
+}
+
+#medical-review-btn {
+    border-radius: 25px;
+}
+
+#map-img {
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.topBar {
+    width: 100%;
+}
+
+.nav-tabs {
+    width: 100%;
+}

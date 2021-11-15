@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="./src/vendors/jQuery/jquery-3.6.0.min.js"></script>
+    <link href="./src/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <!--theme imported-->
+    <link href="./src/vendors/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="./src/vendors/fontawesome/css/all.css" rel="stylesheet"/>
+
+    <meta charset="UTF-8">
+    <title>Social Media Rehab</title>
+</head>
+<body>
+
+<!--alert box-->
+<div class="alert">
+    <div class="row">
+        <div class="col">
+            <div class="alert-call">
+                Call (123) 456-7890
+            </div>
+        </div>
+        <div class="col">
+            <div class="alert-call" style="background-color: forestgreen">
+                Verify Insurance
+            </div>
+        </div>
+    </div>
+
+    <div id="helpline-link" style="padding-top: 10px">
+        <a href="./public/Helpline/index.html">
+            <i class="far fa-question-circle"></i> Helpline Information
+        </a>
+    </div>
+</div>
+
+<!-- Modal (pop-up) -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to get help?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="call-number" >
+                    Call (123) 456-7890
+                </p>
+                <div id="alert-helpline">
+                    <a href="./public/Helpline/index.html">
+                        <i class="far fa-question-circle"></i> Helpline Information
+                    </a>
+                </div>
+                <hr>
+                <p>
+                    Don't wait. Get help today. Call our number and talk to one of our certified
+                    health professionals for information on how you can reclaim your life.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- top navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">The Social Media Addiction Center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./index.html">Find a Rehab Center
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./public/TreatmentOverview/index.html">Treatment
+                        Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./public/AddictionInformation/index.html">Addiction
+                        Information </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./public/About/index.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       role="button" aria-haspopup="true" aria-expanded="false">Treatment Center
+                        Locations</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">New Hampshire</a>
+                        <a class="dropdown-item" href="#">Arizona</a>
+                        <a class="dropdown-item" href="#">Colorado</a>
+                        <a class="dropdown-item" href="#">Illinois</a>
+                        <a class="dropdown-item" href="#">Georgia</a>
+                    </div>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-info">Call (123) 456-7890</button>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container" id="homeScreen"></div>
+<script src="./index.js" type="module"></script>
+
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#myModal').modal('show');
+    });
+</script>
+
+
+
+</body>
+</html>

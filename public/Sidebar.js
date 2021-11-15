@@ -8,7 +8,7 @@ const Sidebar = () => {
     <h6 class="card-subtitle mb-2 text-muted">The content on Rehabs.com is brought to you by Social Media Addiction Centers (SMAC), a
     nationwide network of leading substance abuse and behavioral treatment facilities.</h6>
     <p class="card-text">
-    <img src="./images/Treatment%20Center.jpg" alt="map-img" id="map-img">
+    <img src="../public/images/TreatmentCenter.jpg" alt="map-img" id="map-img">
     </p>
     <a href="#" class="card-link">Rising Hope Recovery</a>
     <br>
