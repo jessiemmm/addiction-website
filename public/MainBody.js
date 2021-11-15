@@ -5,7 +5,7 @@ const MainBody = () => {
     <h2>Social Media Rehab Centers for Addiction Treatment Near Me</h2>
     <hr>
     <p id="authored-credits">
-        Reviewed by: Jessie, Brooke, Sadhana, and Emily
+        Written and reviewed by: Jessie, Brooke, Sadhana, and Emily <i class="fas fa-check-circle"></i> &nbsp;| &nbsp; Last updated on November 15, 2021
     </p>
     <hr>
     
